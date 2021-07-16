@@ -1,5 +1,5 @@
 
-# ITA Corpus Chuwa
+# ITA Corpus Chuwa!
 
 <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/publicdomain/88x31.png" /></a>
 [![CircleCI](https://circleci.com/gh/shirayu/ita-corpus-chuwa.svg?style=svg)](https://circleci.com/gh/shirayu/ita-corpus-chuwa)
