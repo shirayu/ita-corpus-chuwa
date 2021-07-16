@@ -2,6 +2,7 @@
 # ITA Corpus Chuwa
 
 <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/publicdomain/88x31.png" /></a>
+[![CircleCI](https://circleci.com/gh/shirayu/ita-corpus-chuwa.svg?style=svg)](https://circleci.com/gh/shirayu/ita-corpus-chuwa)
 
 ``ITA Corpus Chuwa!`` is **chu**nked **w**ord **a**nnotation for [ITA corpus](https://github.com/mmorise/ita-corpus), a phonemically balanced public domain corpus of Japanese text.  
 ``ITAコーパスChuwa!``は音素バランスを考慮したパブリックドメインの日本語テキストコーパスである[ITA corpus](https://github.com/mmorise/ita-corpus)に対する単語と句のアノテーションです．
