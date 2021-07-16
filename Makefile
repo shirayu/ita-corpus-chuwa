@@ -44,7 +44,7 @@ lint_markdown:
 	| xargs npx markdownlint --config ./.markdownlint.json
 
 check_data:
-	python3 ./scripts/check_jumanpp.py -i ./knp -r ./input/emotion.tsv -r input/recitation.tsv
+	python3 ./scripts/check_jumanpp.py -i ./data/knp -r ./data/input/emotion.tsv -r ./data/input/recitation.tsv
 
 .PHONY: all setup \
 	flake8 autopep8 mypy isort yamllint\
