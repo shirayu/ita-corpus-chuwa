@@ -40,25 +40,17 @@ jobs:
           name: Install dependencies
           command: |
             make -j $(nproc) dev_setup
-      - run:
-          name: setup-cc
-          command: |
-            poetry run make setup-cc
 
       - save_cache:
           key: deps-{{ checksum "poetry.lock" }}\
             -{{ .Environment.CACHE_VERSION }}
           paths:
             - ~/.cache/pypoetry/virtualenvs
-            - ~/.local/bin-cc
+
       - run:
           name: Lint
           command: |
             poetry run make -j $(nproc) lint
-      - run:
-          name: Test Python codes
-          command: |
-            poetry run make -j $(nproc) test-cc
 
       - store_artifacts:
           path: htmlcov
