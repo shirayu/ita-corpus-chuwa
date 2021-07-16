@@ -46,6 +46,11 @@ ITA Corpusの原文を文分割したものがTSVであります
     - I support [Tohoku sisters](https://zunko.jp/).
     - I supported [the crowdfunding for the creation of the ITA corpus, etc](https://greenfunding.jp/pub/projects/3891).
 
+## Links
+
+- [ITAコーパス](https://github.com/mmorise/ita-corpus)
+- [ITAコーパス マルチモーダルデータベース](https://zunko.jp/multimodal_dev/login.php)
+
 ## Licence
 
 [CC0 1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
