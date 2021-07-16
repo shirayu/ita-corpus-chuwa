@@ -36,6 +36,9 @@ ITA Corpusの原文を文分割したものがTSVであります
 - [京都大学テキストコーパス](https://nlp.ist.i.kyoto-u.ac.jp/index.php?%E4%BA%AC%E9%83%BD%E5%A4%A7%E5%AD%A6%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9)や[京都大学ウェブ文書リードコーパス](https://nlp.ist.i.kyoto-u.ac.jp/index.php?KWDLC)と同様の品詞体系（益岡・田窪品詞体系）でアノテーションしています
 - 句間の係り受け関係も付与している．
 - 各形態素の意味情報に``発音``を付与し，ITAコーパスの発音と一致するようにしています
+- [ドキュメント](docs)
+    - [処理方法](docs/processing.md)
+    - [アノテーションメモ](docs/note.md)
 
 ## Developer
 
