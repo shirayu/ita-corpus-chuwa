@@ -41,6 +41,7 @@ lint_markdown:
 	find . -type d -o -type f -name '*.md' -print \
 	| grep -v \.venv \
 	| grep -v node_modules \
+	| grep -v 'ita-corpus/' \
 	| xargs npx markdownlint --config ./.markdownlint.json
 
 check_data:
